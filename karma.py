@@ -1,7 +1,6 @@
 import praw
 
-user_agent = ("Karma breakdown 1.0 by /u/_Daimon_ "
-              "github.com/Damgaard/Reddit-Bots/")
+user_agent = ("<Anything with python>:<Karma Breakdown>:<0.1> (by /u/IAMAtalkingduckAMA>)")
 r = praw.Reddit(user_agent=user_agent)
 thing_limit = raw_input("How many posts do you want to search through? ")
 user_name = raw_input("Enter the useranme of the user you want to look at: ")
