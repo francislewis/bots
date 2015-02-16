@@ -2,7 +2,7 @@
 A simple reddit bot to show a users Karma breakdown by subreddit.
 
 #Running
-Make sure you have all the <a href="/#Dependencies">Dependencies</a> installed.
+Make sure you have all the dependencies installed.
 Open a command line in a directory with `karmabreakdown.py` in it. 
 Run `python karmabreakdown.py`
 
