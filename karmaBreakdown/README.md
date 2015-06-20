@@ -9,7 +9,7 @@ Run `python karmabreakdown.py`
 #Dependencies
 
 1. PRAW - (Python reddit API wrapper)
-You can install with ' pip install praw '
+You can install with 'sudo pip install praw '
 
 2. pprint - To  make the printed data look pretty. Is included with python so nothing to install!
 
