@@ -22,3 +22,9 @@ ip link set dev $1 down
 MAC=$(cat /sys/class/net/$1/address | cut -d':' -f1-3)$(hexdump -n3 -e '/1 ":%02X"' /dev/urandom)
 ip link set dev $1 address $MAC
 ip link set dev $1 up
+
+#To change back do 
+#sudo dmesg | grep eth0 to find original mac
+#then
+#sudo ip link set dev eth0 address 94:de:80:00:11:22
+#to change back
