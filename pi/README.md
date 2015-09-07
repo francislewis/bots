@@ -1,5 +1,7 @@
 Calculating PI in different languages.
 
+http://franicslewis.me/bots/pi
+
 ####Timing
 I am trying to implement a way to time how long each language takes to find pi to 800 digits.
 
